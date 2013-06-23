@@ -1,5 +1,8 @@
 ### Instructions
 
+NekoCSP uses Direct encoding to convert the CSP problem to the CNF form
+and then utilizes a SAT solver to find a solution
+
 python nekocsp.py examples/example1.py 
 
 python zeptosat.py problem.cnf > result.cnf
